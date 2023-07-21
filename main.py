@@ -7,7 +7,7 @@ input_width = 640
 input_height = 640
 fps = 30
 
-video_capture = cv2.VideoCapture("mov.mp4")
+video_capture = cv2.VideoCapture("video.mp4")
 
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter("output.mp4", fourcc, fps, (input_width, input_height))
